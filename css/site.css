@@ -1,0 +1,290 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+h1, h2{
+  text-align: center;
+  font-family: "Anton", sans-serif;
+}
+
+h1{
+  font-size: 30px;
+}
+
+main {
+  position: relative;
+  z-index: 10000;
+  background: transparent url("../_images/_bg/bg.svg") no-repeat top center;
+  background-size: cover;
+}
+
+#bio, #sscPics, #wwd{
+  margin-top: 10%;
+}
+
+.gap{
+  padding: 0;
+  margin: 0;
+}
+
+.dwn-space{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 20px;
+}
+
+.clt{
+  position: relative;
+  padding: 0;
+}
+
+.clt:hover .client{
+  opacity: 0.9;
+  transition: all 0.5s;
+}
+
+.client {
+  color: #e1e3dd;
+  background-color: #333;
+  /*padding: 1rem;*/
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  z-index: 1000000;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+
+/* ================= SEPERATOR ============================================= */
+
+
+.line-separator img{
+  height: 20px;
+}
+
+.separator {
+  width: 250px;
+  margin: 0 auto 5% auto;
+}
+
+.line-separator::before, .line-separator::after{
+  padding-top: .75rem;
+  box-sizing: border-box;
+  display: block;
+  content: " ";
+  width: 45%;
+  border-bottom: 2px solid #FABC09;
+}
+
+.line-separator::after{
+  float: right;
+}
+
+.line-separator::before{
+  float: left;
+}
+
+figcaption {
+  color: #e1e3dd;
+}
+
+/* =================   JUMBOTRON =========================================== */
+.jumbo {
+  margin: 0;
+  height: 91%;
+
+}
+
+.fixed {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background: url('../_images/_bg/jumbotron.jpg') no-repeat 35% 0%;
+  background-size: cover;
+}
+
+.header-text{
+  position: fixed;
+  top: 40%;
+  left: 40%;
+}
+
+.mouse {
+  position: fixed;
+  bottom: 10%;
+  left: 48.5%;
+  z-index: 2;
+}
+
+/* ================= ABOUT ================================================= */
+
+#about {
+  /*text-align: center;*/
+  padding: 25px;
+}
+
+#about p {
+  margin-bottom: 2rem;
+}
+
+#about p:first-of-type {
+  margin-top: 1rem;
+}
+
+
+/* ================= PARA ================================================== */
+
+
+
+.para2{
+  position: relative;
+  background: transparent url('../_images/_bg/IMG_6679.jpg') no-repeat top;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 350px;
+  width: 100%;
+}
+
+.para1{
+  position: relative;
+  background: transparent url('../_images/_bg/4.jpg') no-repeat top;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 350px;
+  width: 100%;
+}
+/* ================= WORK ================================================== */
+
+#work {
+  margin-top: 5%;
+  padding: 20px;
+  text-align: center;
+}
+
+img.pics {
+  max-width: 100%;
+}
+
+.cli {
+  padding-bottom: 50px;
+}
+/* ================= CONTACT =============================================== */
+
+#contact {
+  background-color: #e1e3dd;
+  color: #333;
+  padding-bottom: 20px;
+}
+
+#contact h2{
+  margin-top: 30px;
+}
+#contact a{
+  color: #333;
+}
+
+footer{
+  position: relative;
+  z-index: 1000000;
+}
+
+footer img{
+  margin: auto;
+}
+/* =================  MEDIA ================================================ */
+
+@media (max-width: 460px) {
+
+}
+
+
+@media (min-width: 767px) {
+  h1{
+    font-size: 50px;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    z-index: 500000000000000;
+    background-color:  #333;
+    opacity: 0.9;
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+  }
+  nav li{
+    list-style-type: none;
+    display: inline-block;
+    width: 30%;
+  }
+
+  ol, ul {
+    padding: 0;
+      margin-top: 0;
+      margin-bottom: 10px;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+  }
+
+  nav a, nav a:hover, nav a:focus, nav a:active{
+    color: #e1e3dd;
+  }
+}
+
+#bio{
+  visibility: hidden;
+}
+
+.center {
+  text-align: center;
+}
+
+.logo {
+  /*padding-bottom: 50px;*/
+  height: 100px;
+  margin:auto;
+}
+.logo-1{
+  margin: auto;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 500000000000000;
+  background-color:  #333;
+  opacity: 0.9;
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+}
+nav li{
+  list-style-type: none;
+  display: inline-block;
+  width: 30%;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+nav a, nav a:hover, nav a:focus, nav a:active{
+  color: #e1e3dd;
+}
+
+.anchor { padding-top: 60px; }
