@@ -7,6 +7,10 @@ html, body{
   font-size: 16px;
 }
 
+body{
+  overflow: auto;
+}
+
 h1, h2{
   text-align: center;
   font-family: "Anton", sans-serif;
@@ -112,9 +116,9 @@ figcaption {
 }
 
 .header-text{
-  position: fixed;
+  position: relative;
   top: 40%;
-  left: 40%;
+  left: auto;
 }
 
 .mouse {
