@@ -1,1 +1,7 @@
-Website for ShortCut Club.  They are a production company from South London.  www.shortcutclub.co.uk
+# Shortcut club
+
+A static website built for the production company Shortcut Club. Built using HTML, CSS, JavaScript and Bootstrap.
+
+[Shortcut Club](https://shortcutclub.co.uk/)
+
+
